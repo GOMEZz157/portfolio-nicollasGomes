@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --button-color: #4c008e;
+  --border-button: #9a1bba;
+  --head-bg: #1b1b1b;
+  --bg-color: #080808;
+  --text-color: #9c9c9c;
+  --main-text: #fff;
+  --color-zapzap: #25d366;
+  --color-email: #f4b400;
+  --color-linkedin: #0077b5;
+
+  --shadow-*: initial;
+  --shadow-button: 0 0 20px rgba(154, 27, 186, 1);
+
+  --font-*: initial;
+  --font-raleway: "Raleway";
+  --font-IBM: "IBM Plex Mono";
+
+  --animate-typing: typing 4s steps(40) infinite,
+    blink 0.5s step-end infinite alternate;
+
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+
+    30%{
+        width: 13ch;
+    }
+
+    100% {
+        width: 13ch;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+}
