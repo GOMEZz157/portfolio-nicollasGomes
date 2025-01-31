@@ -18,6 +18,7 @@
   --font-*: initial;
   --font-raleway: "Raleway";
   --font-IBM: "IBM Plex Mono";
+  --font-lexend: "Lexend Deca";
 
   --animate-typing: typing 4s steps(40) infinite,
     blink 0.5s step-end infinite alternate;
