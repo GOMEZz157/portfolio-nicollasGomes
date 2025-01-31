@@ -16,7 +16,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/nicollas-gomes-4479952b9/" target="blank">
               <i className="fa-brands fa-linkedin hover:text-(--color-linkedin) text-2xl transition-all duration-300 ease-in-out"></i>
             </a>
-            <a href="https://api.whatsapp.com/send/?phone=5511914462438&text=Ol%C3%A1%20nicollas%2C%20vim%20pelo%20portf%C3%B3lio!&type=phone_number&app_absent=0
+            <a href="https://api.whatsapp.com/send/?phone=5511914462438&text=Ol%C3%A1%20nicollas%2C%20vim%20pelo%20portf%C3%B3lio!!&type=phone_number&app_absent=0
 " target="blank">
               <i className="fa-brands fa-whatsapp  hover:text-(--color-zapzap) text-2xl transition-all duration-300 ease-in-out"></i>
             </a>
