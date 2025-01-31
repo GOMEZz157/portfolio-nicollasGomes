@@ -20,10 +20,10 @@ export default function Home() {
 " target="blank">
               <i className="fa-brands fa-whatsapp  hover:text-(--color-zapzap) text-2xl transition-all duration-300 ease-in-out"></i>
             </a>
-            <a href="" target="blank">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nicksss.gomes@gmail.com&su=Contato&body=Olá,%20gostaria%20de%20falar%20com%20você." target="blank">
               <i className="fa-solid fa-envelope hover:text-(--color-email) text-2xl transition-all duration-300 ease-in-out"></i>
             </a>
-            <a href="" target="blank">
+            <a href="https://www.github.com/GOMEZz157" target="blank">
               <i className="fa-brands fa-github hover:text-(--main-text) text-2xl transition-all duration-300 ease-in-out"></i>
             </a>
           </div>
@@ -47,7 +47,6 @@ export default function Home() {
         <img src={photo} alt="Foto de Nicollas Gomes" className="w-md"/>
         </div>
       </main>
-
 
     </body>
   )
