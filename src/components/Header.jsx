@@ -6,10 +6,10 @@ export default function Header() {
     <header className="flex justify-center">
         <nav className="bg-(--head-bg) text-(--text-color) flex justify-evenly w-5/6 p-5 rounded-b-lg">
           <div className="flex gap-15">
-            <a href="/" className="hover:text-(--main-text) font-IBM font-normal transition-all duration-300 ease-in-out">Home</a>
-            <a href="/About" className="hover:text-(--main-text) font-IBM font-normal transition-all duration-300 ease-in-out">About me</a>
-            <a href="/Projects" className="hover:text-(--main-text) font-IBM font-normal transition-all duration-300 ease-in-out">Projects</a>
-            <a href="/Skills" className="hover:text-(--main-text) font-IBM font-normal transition-all duration-300 ease-in-out">Skills</a>
+            <a href="/" className="hover:text-(--color-linkedin) font-poppins font-bold transition-all duration-300 ease-in-out">Home</a>
+            <a href="/About" className="hover:text-(--color-linkedin) font-poppins font-bold transition-all duration-300 ease-in-out">About me</a>
+            <a href="/Projects" className="hover:text-(--color-linkedin) font-poppins font-bold transition-all duration-300 ease-in-out">Projects</a>
+            <a href="/Skills" className="hover:text-(--color-linkedin) font-poppins font-bold transition-all duration-300 ease-in-out">Skills</a>
           </div>
           <div className="flex gap-5 transition-all">
             <a href="https://www.linkedin.com/in/nicollas-gomes-4479952b9/" target="blank">

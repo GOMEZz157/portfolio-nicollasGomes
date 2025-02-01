@@ -2,20 +2,21 @@
 
 @theme {
   --color-*: initial;
-  --button-color: #4c008e;
-  --border-button: #9a1bba;
-  --head-bg: #1b1b1b;
-  --bg-color: #080808;
-  --text-color: #9c9c9c;
-  --main-text: #fff;
-  --color-zapzap: #25d366;
-  --color-email: #f4b400;
-  --color-linkedin: #0077b5;
-
+  --button-color: #3b82f6;    /* Azul vibrante para botões */
+  --border-button: #2563eb;   /* Azul mais escuro para borda */
+  --head-bg: #e0f2fe;         /* Azul muito claro para header */
+  --bg-color: #f0f9ff;        /* Azul mais claro ainda para fundo */
+  --text-color: #64748b;      /* Azul acinzentado para texto secundário */
+  --main-text: #0f172a;       /* Azul muito escuro para texto principal */
+  --color-zapzap: #25d366;    /* Verde do WhatsApp */
+  --color-email: #f4b400;     /* Amarelo do email */
+  --color-linkedin: #0077b5;  /* Azul do LinkedIn */
+  
   --shadow-*: initial;
-  --shadow-button: 0 0 20px rgba(154, 27, 186, 1);
+  --shadow-button: 0 0 20px rgba(59, 130, 246, 0.4); /* Shadow box em azul */
 
   --font-*: initial;
+  --font-poppins: "Poppins";
   --font-raleway: "Raleway";
   --font-IBM: "IBM Plex Mono";
   --font-lexend: "Lexend Deca";
@@ -29,11 +30,11 @@
     }
 
     30%{
-        width: 13ch;
+      width: 13ch;
     }
 
     100% {
-        width: 13ch;
+      width: 13ch;
     }
   }
 
