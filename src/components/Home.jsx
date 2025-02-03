@@ -20,7 +20,7 @@ export default function Home() {
             <i className="fa-solid fa-chevron-right"></i>
           </a>
         </div>
-        <img src={photo} alt="Foto de Nicollas Gomes" className="w-md"/>
+        <img src={photo} alt="Foto de Nicollas Gomes" className="w-md" loading="lazy"/>
         </div>
       </main>
 

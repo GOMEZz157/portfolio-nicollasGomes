@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  --color-*: initial;
   --button-color: #3b82f6;    /* Azul vibrante para botões */
   --border-button: #2563eb;   /* Azul mais escuro para borda */
   --head-bg: #e0f2fe;         /* Azul muito claro para header */

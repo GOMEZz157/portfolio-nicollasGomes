@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="bg-[var(--bg-color)] h-screen flex flex-row items-center justify-center gap-[90px]">
 
-            <img src={Foto} alt="" className="rounded-sm w-[575px] h-[575px]" />
+            <img src={Foto} alt="" className="rounded-sm w-[575px] h-[575px]" loading="lazy"/>
             <div className="flex flex-col w-1/3">
                 <h1 className="text-[var(--main-text)] font-extrabold font-raleway text-6xl p-3 px-0">
                     About <span className="text-[var(--button-color)]">Me</span>
@@ -19,23 +19,23 @@ export default function About() {
                     If you’re looking for a committed professional who is constantly learning and motivated to grow in the development field, I’d love to connect and exchange ideas! 🚀
                 </p>
                 <div className="flex items-center justify-between">
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nicksss.gomes@gmail.com&su=Contato&body=Olá,%20gostaria%20de%20falar%20com%20você." className="p-4 bg-(--head-bg) text-(--main-text) rounded-sm w-1/3 flex items-center justify-center font-lexend font-regular hover:text-(--bg-color) border hover:bg-(--button-color) border-solid hover:border-(--border-button) hover:shadow-(--shadow-button) transition-all duration-300 ease-in-out " target="blank">Contact Me</a>
-                <div className="flex gap-5 transition-all">
-                    <a href="https://www.linkedin.com/in/nicollas-gomes-4479952b9/" target="blank">
-                        <i className="fa-brands fa-linkedin text-(--text-color) hover:text-(--color-linkedin) text-4xl transition-all duration-300 ease-in-out"></i>
-                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nicksss.gomes@gmail.com&su=Contato&body=Olá,%20gostaria%20de%20falar%20com%20você." className="p-4 bg-(--head-bg) text-(--main-text) rounded-sm w-1/3 flex items-center justify-center font-lexend font-regular hover:text-(--bg-color) border hover:bg-(--button-color) border-solid hover:border-(--border-button) hover:shadow-(--shadow-button) transition-all duration-300 ease-in-out gap-[1rem]" target="blank">Contact Me <i className="fa-solid fa-chevron-right"></i></a>
+                    <div className="flex gap-5 transition-all">
+                        <a href="https://www.linkedin.com/in/nicollas-gomes-4479952b9/" target="blank">
+                            <i className="fa-brands fa-linkedin text-(--text-color) hover:text-(--color-linkedin) text-4xl transition-all duration-300 ease-in-out"></i>
+                        </a>
 
-                    <a href="https://api.whatsapp.com/send/?phone=5511914462438&text=Ol%C3%A1%20nicollas%2C%20vim%20pelo%20portf%C3%B3lio!!&type=phone_number&app_absent=0
+                        <a href="https://api.whatsapp.com/send/?phone=5511914462438&text=Ol%C3%A1%20nicollas%2C%20vim%20pelo%20portf%C3%B3lio!!&type=phone_number&app_absent=0
 " target="blank">
-                        <i className="fa-brands fa-whatsapp text-(--text-color) hover:text-(--color-zapzap) text-4xl transition-all duration-300 ease-in-out"></i>
-                    </a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nicksss.gomes@gmail.com&su=Contato&body=Olá,%20gostaria%20de%20falar%20com%20você." target="blank">
-                        <i className="fa-solid fa-envelope text-(--text-color) hover:text-(--color-email) text-4xl transition-all duration-300 ease-in-out"></i>
-                    </a>
-                    <a href="https://www.github.com/GOMEZz157" target="blank">
-                        <i className="fa-brands fa-github text-(--text-color) hover:text-(--main-text) text-4xl transition-all duration-300 ease-in-out"></i>
-                    </a>
-                </div>
+                            <i className="fa-brands fa-whatsapp text-(--text-color) hover:text-(--color-zapzap) text-4xl transition-all duration-300 ease-in-out"></i>
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nicksss.gomes@gmail.com&su=Contato&body=Olá,%20gostaria%20de%20falar%20com%20você." target="blank">
+                            <i className="fa-solid fa-envelope text-(--text-color) hover:text-(--color-email) text-4xl transition-all duration-300 ease-in-out"></i>
+                        </a>
+                        <a href="https://www.github.com/GOMEZz157" target="blank">
+                            <i className="fa-brands fa-github text-(--text-color) hover:text-(--main-text) text-4xl transition-all duration-300 ease-in-out"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
