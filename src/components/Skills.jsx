@@ -67,7 +67,7 @@ export default function Skills() {
           <p className="text-gray-400">Constantly evolving and learning new technologies</p>
         </div>
 
-        <div className="flex justify-center gap-4 mb-12">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
           {Object.entries(categories).map(([key, category]) => (
             <button
               key={key}
