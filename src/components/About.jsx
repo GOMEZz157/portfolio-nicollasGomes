@@ -1,4 +1,4 @@
-import Foto from "../assets/about.png"
+import Foto from "../assets/vetor.png"
 
 export default function About() {
     return (
@@ -42,4 +42,6 @@ export default function About() {
 
     );
 }
+
+// PRECISA DE RESPONSIVIDADE
 
