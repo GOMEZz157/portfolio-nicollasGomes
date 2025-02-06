@@ -1,14 +1,15 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { title: 'Home', href: '/' },
-    { title: 'About', href: '/about' },
-    { title: 'Skills', href: '/skills' },
-    { title: 'Projects', href: '/projects' },
+    { title: 'Home', to: '/' },
+    { title: 'About', to: '/about' },
+    { title: 'Skills', to: '/skills' },
+    { title: 'Projects', to: '/projects' },
   ];
 
   const socialLinks = [
@@ -36,7 +37,7 @@ export default function Header() {
 
   return (
     <header className="flex justify-center">
-      <nav className="bg-(--head-bg) text-(--text-color) flex flex-col md:flex-row justify-between w-5/6 p-5 rounded-b-lg relative ">
+      <nav className="bg-(--head-bg) text-(--text-color) flex flex-col md:flex-row justify-between w-5/6 p-5 rounded-b-lg relative">
         {/* Botão Menu Mobile */}
         <button 
           onClick={() => setIsOpen(!isOpen)}
@@ -57,13 +58,13 @@ export default function Header() {
           transition-all duration-300 ease-in-out
         `}>
           {menuItems.map(item => (
-            <a
+            <Link
               key={item.title}
-              href={item.href}
+              to={item.to}
               className="hover:text-(--color-linkedin) font-poppins font-bold transition-all duration-300 ease-in-out text-center md:text-left"
             >
               {item.title}
-            </a>
+            </Link>
           ))}
         </div>
 

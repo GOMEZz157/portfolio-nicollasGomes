@@ -19,7 +19,7 @@ export default function Home() {
             </p>
             <div className="flex justify-center md:justify-start">
               <a
-                href="/About"
+                href="/about"
                 className="
                   flex w-full sm:w-4/6 text-base md:text-xl justify-center items-center gap-3 
                   hover:text-(--bg-color) text-(--bg-color) font-poppins font-bold sm:bg-(--head-bg) 
