@@ -1,11 +1,12 @@
 import './index.css'
-import App from './App.jsx'
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import ReactDOM from "react-dom/client"; // Importação de 'react-dom/client' para o React 18
+import App from "./App";
+import { HashRouter } from "react-router-dom";
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+root.render(
+  <HashRouter>
     <App />
-  </BrowserRouter>
+  </HashRouter>
 );
