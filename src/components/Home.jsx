@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import photo from "../assets/photo.png"
 import Header from "./Header"
 
@@ -18,8 +19,8 @@ export default function Home() {
               industry trends.
             </p>
             <div className="flex justify-center md:justify-start">
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 className="
                   flex w-full sm:w-4/6 text-base md:text-xl justify-center items-center gap-3 
                   hover:text-(--bg-color) text-(--bg-color) font-poppins font-bold sm:bg-(--head-bg) 
@@ -30,7 +31,7 @@ export default function Home() {
               >
                 Lets get started
                 <i className="fa-solid fa-chevron-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="w-48 sm:w-64 md:w-80 lg:w-96">
