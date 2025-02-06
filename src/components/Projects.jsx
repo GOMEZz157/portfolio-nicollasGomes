@@ -51,9 +51,9 @@ export default function Projects() {
   };
 
   return (
-    <section className="bg-(--bg-color) px-4 h-screen">
+    <section className="bg-(--bg-color) h-screen">
       <Header/>
-      <div className="max-w-6xl mx-auto mt-[8rem]">
+      <div className="max-w-6xl mx-auto mt-[8rem] px-4">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}

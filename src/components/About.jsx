@@ -16,22 +16,22 @@ export default function About() {
   };
 
   return (
-    <div className="bg-[var(--bg-color)] h-screen flex flex-col w-screen">
+    <div className="bg-[var(--bg-color)] h-screen flex flex-col w-screen md:gap-[3rem]">
       {/* Header sempre no topo */}
       <Header />
 
       {/* Conteúdo principal */}
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-[30px] sm:gap-[90px] flex-1">
+      <div className=" bg-[var(--bg-color)] flex flex-col lg:flex-row items-center justify-center gap-[30px] lg:gap-[90px] flex-1 py-[6rem]">
         <motion.img
           src={Foto}
           alt=""
-          className="rounded-sm w-[200px] sm:w-[575px] sm:text-left"
+          className="rounded-sm w-[200px] sm:w-[300px] lg:w-[575px] lg:text-left"
           loading="lazy"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         />
-        <div className="flex flex-col w-2/3 sm:w-1/3 gap-4">
+        <div className="flex flex-col w-2/3 lg:w-1/3 gap-4">
           <motion.h1
             className="text-[var(--main-text)] font-extrabold font-raleway text-2xl sm:text-6xl sm:p-3 sm:px-0"
             initial="hidden"

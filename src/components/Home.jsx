@@ -7,12 +7,12 @@ export default function Home() {
     <div className="bg-gradient-to-br from-gray-900 to-gray-800 overflow-x-hidden min-h-screen">
       <Header />
       <main className="flex items-center justify-center min-h-[calc(100vh-80px)] px-4 py-8 md:py-0">
-        <div className="main-container flex flex-col-reverse md:flex-row items-center justify-around w-full md:w-4/6 gap-8 md:gap-4">
-          <div className="text-(--main-text) max-w-2xl text-center md:text-left">
+        <div className="main-container flex flex-col-reverse lg:flex-row items-center justify-around w-full md:w-4/6 gap-8 md:gap-4">
+          <div className="text-(--main-text) max-w-2xl text-center lg:text-left">
             <h1 className="overflow-hidden whitespace-nowrap bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent font-extrabold font-raleway text-4xl sm:text-5xl md:text-6xl lg:text-7xl p-3 px-0  sm:animate-typing sm:border-r border-solid border-(--bg-color)">
               Nicollas Gomes
             </h1>
-            <p className="font-poppins font-normal text-(--bg-color) p-3 px-0 mb-6 md:mb-10 text-center sm:text-left text-sm sm:text-base">
+            <p className="font-poppins font-normal text-(--bg-color) p-3 px-0 mb-6 md:mb-10 text-center lg:text-left text-sm sm:text-base">
               I have experience with HTML, TailwindCSS, JavaScript, Git, React, and developing
               responsive and interactive layouts in academic and personal projects.
               Im always seeking to improve my skills and stay up-to-date with
@@ -22,10 +22,10 @@ export default function Home() {
               <Link
                 to="/about"
                 className="
-                  flex w-full sm:w-4/6 text-base md:text-xl justify-center items-center gap-3 
-                  hover:text-(--bg-color) text-(--bg-color) font-poppins font-bold sm:bg-(--head-bg) 
+                  flex w-full lg:w-4/6 text-base lg:text-xl justify-center items-center gap-3 
+                  hover:text-(--bg-color) text-(--bg-color) font-poppins font-bold lg:bg-(--head-bg) 
                   hover:bg-(--button-color) bg-(--button-color) p-4 md:p-6 border border-solid 
-                  hover:border-(--border-button) border-(--border-button) sm:border-(--main-text) rounded-sm sm:text-(--main-text)
+                  hover:border-(--border-button) border-(--border-button) lg:border-(--main-text) rounded-sm lg:text-(--main-text)
                   hover:shadow-(--shadow-button) shadow-(--shadow-button) sm:shadow-none transition-all duration-300 ease-in-out
                 "
               >

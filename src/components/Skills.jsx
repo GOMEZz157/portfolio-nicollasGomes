@@ -60,9 +60,9 @@ export default function Skills() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-gray-900 to-gray-800 text-white px-4">
+    <div className="min-h-screen w-full bg-gradient-to-br from-gray-900 to-gray-800 text-white">
       <Header />
-      <div className="max-w-6xl mx-auto mt-[8rem]">
+      <div className="max-w-6xl mx-auto mt-[8rem] pb-[6rem] px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
             Professional Skills
