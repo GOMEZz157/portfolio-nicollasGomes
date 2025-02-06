@@ -6,9 +6,9 @@ export default function Header() {
 
   const menuItems = [
     { title: 'Home', href: '/' },
-    { title: 'About me', href: '/About' },
-    { title: 'Projects', href: '/Projects' },
+    { title: 'About', href: '/About' },
     { title: 'Skills', href: '/Skills' },
+    { title: 'Projects', href: '/Projects' },
   ];
 
   const socialLinks = [

@@ -3,12 +3,13 @@ import { Github, ExternalLink } from 'lucide-react';
 import nicollas from "../assets/nicollas.jpg"
 import cars from "../assets/cars.jpg"
 import card from "../assets/simple.jpg"
+import Header from './Header';
 
 export default function Projects() {
   const projects = [
     {
       title: "Portfolio",
-      description: "Portfolio pessoal desenvolvido com React e TailwindCSS, focado em apresentar meus projetos e habilidades de forma profissional.",
+      description: "Personal portfolio developed with React and TailwindCSS, focused on presenting my projects and skills in a professional way.",
       tags: ["React", "TailwindCSS"],
       image: nicollas,
       github: "https://github.com/GOMEZz157/portfolio-nicollasGomes",
@@ -16,7 +17,7 @@ export default function Projects() {
     },
     {
       title: "Cars",
-      description: "Desenvolvida em React com Tailwind CSS. Apresenta uma interface responsiva com cards para exibição de veículos.",
+      description: "Developed in React with Tailwind CSS. Features a responsive interface with cards for displaying vehicles.",
       tags: ["React", "TailwindCSS"],
       image: cars,
       github: "https://github.com/GOMEZz157/Projeto-Cars",
@@ -24,7 +25,7 @@ export default function Projects() {
     },
     {
       title: "Simple Grid Component",
-      description: "Card simples responsivo oferecendo um serviço com um botão animado com hover, desenvolvido com HTML e CSS para praticar.",
+      description: "Simple responsive card offering a service with a hover animated button, developed with HTML and CSS for practice.",
       tags: ["HTML", "CSS"],
       image: card,
       github: "https://github.com/GOMEZz157/simple-grid-component",
@@ -50,8 +51,9 @@ export default function Projects() {
   };
 
   return (
-    <section className="bg-(--bg-color) py-16 px-4 h-screen">
-      <div className="max-w-6xl mx-auto">
+    <section className="bg-(--bg-color) px-4 h-screen">
+      <Header/>
+      <div className="max-w-6xl mx-auto mt-[8rem]">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
