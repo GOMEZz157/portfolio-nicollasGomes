@@ -59,7 +59,7 @@ export default function Projects() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl font-bold text-(--main-text) font-raleway mb-12 text-center"
         >
-          Projetos
+          Projects
         </motion.h2>
 
         <motion.div 
