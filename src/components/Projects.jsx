@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
 import nicollas from "../assets/nicollas.jpg"
 import cars from "../assets/cars.jpg"
-import card from "../assets/simple.jpg"
+import card from "../assets/spotify.jpg"
 import Header from './Header';
 
 export default function Projects() {
@@ -24,12 +24,12 @@ export default function Projects() {
       live: "https://carros-nicollasgomes32b.vercel.app"
     },
     {
-      title: "Simple Grid Component",
-      description: "Simple responsive card offering a service with a hover animated button, developed with HTML and CSS for practice.",
-      tags: ["HTML", "CSS"],
+      title: "Spotify Clone",
+      description: "A simple Spotify clone built with React and MongoDB. It displays a list of songs stored in the database and includes a functional music player.",
+      tags: ["React", "CSS", "MongoDB"],
       image: card,
-      github: "https://github.com/GOMEZz157/simple-grid-component",
-      live: "simple-grid-component-inky.vercel.app"
+      github: "https://github.com/GOMEZz157/spotify-jornada-full-stack",
+      live: "https://spotify-jornada-full-stack.onrender.com"
     }
   ];
 

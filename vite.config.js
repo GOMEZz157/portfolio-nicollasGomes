@@ -7,4 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    allowedHosts: ["5173-gomezz157-portfolionico-tmcy74xjtuk.ws-us117.gitpod.io"]
+  }
 });
