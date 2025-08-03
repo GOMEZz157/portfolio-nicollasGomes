@@ -3,6 +3,8 @@ import { Github, ExternalLink } from 'lucide-react';
 import nicollas from "../assets/nicollas.jpg"
 import cars from "../assets/cars.jpg"
 import card from "../assets/spotify.jpg"
+import easybank from "../assets/easybank.png"
+import simple from "../assets/simple.png"
 import Header from './Header';
 
 export default function Projects() {
@@ -30,7 +32,23 @@ export default function Projects() {
       image: card,
       github: "https://github.com/GOMEZz157/spotify-jornada-full-stack",
       live: "https://front-end-spotify-lovat.vercel.app/"
-    }
+    },
+    {
+      title: "Easybank",
+      description: "Developed in React with Tailwind CSS. Features a responsive interface for bank landing page.",
+      tags: ["React", "TailwindCSS"],
+      image: easybank,
+      github: "https://github.com/GOMEZz157/Easybank",
+      live: "https://easybank-gamma-teal.vercel.app/"
+    },
+    {
+      title: "Simple Grid Component",
+      description: "Developed in React with Tailwind CSS. Features a responsive card for sell something.",
+      tags: ["HTML", "CSS"],
+      image: simple,
+      github: "https://github.com/GOMEZz157/simple-grid-component/",
+      live: "https://simple-grid-component-inky.vercel.app/"
+    },
   ];
 
   const containerVariants = {
@@ -51,7 +69,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="bg-(--bg-color) h-screen">
+    <section className="bg-(--bg-color) h-full pb-30">
       <Header/>
       <div className="max-w-6xl mx-auto mt-[8rem] px-4">
         <motion.h2 
