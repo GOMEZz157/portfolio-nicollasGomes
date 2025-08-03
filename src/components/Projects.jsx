@@ -29,7 +29,7 @@ export default function Projects() {
       tags: ["React", "CSS", "MongoDB"],
       image: card,
       github: "https://github.com/GOMEZz157/spotify-jornada-full-stack",
-      live: "https://spotify-jornada-full-stack.onrender.com"
+      live: "https://front-end-spotify-lovat.vercel.app/"
     }
   ];
 

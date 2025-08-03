@@ -8,6 +8,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    allowedHosts: ["5173-gomezz157-portfolionico-tmcy74xjtuk.ws-us117.gitpod.io"]
+    allowedHosts: ["5173-gomezz157-portfolionico-coc190hoyic.ws-us120.gitpod.io"]
   }
 });
