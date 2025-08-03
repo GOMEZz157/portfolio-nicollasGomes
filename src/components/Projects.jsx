@@ -79,7 +79,7 @@ export default function Projects() {
         >
           Projects
         </motion.h2>
-
+        
         <motion.div 
           variants={containerVariants}
           initial="hidden"
@@ -132,7 +132,7 @@ export default function Projects() {
                       text-(--text-color) hover:text-white rounded-md transition-colors duration-300 font-poppins"
                   >
                     <Github className="w-4 h-4" />
-                    Código
+                    Code
                   </motion.a>
                   {project.live && (
                     <motion.a
