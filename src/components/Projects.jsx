@@ -1,53 +1,58 @@
-import { motion } from 'framer-motion';
-import { Github, ExternalLink } from 'lucide-react';
-import nicollas from "../assets/nicollas.jpg"
-import cars from "../assets/cars.jpg"
-import card from "../assets/spotify.jpg"
-import easybank from "../assets/easybank.png"
-import simple from "../assets/simple.png"
-import Header from './Header';
+import { motion } from "framer-motion";
+import { Github, ExternalLink, ChevronDown } from "lucide-react";
+import nicollas from "../assets/nicollas.jpg";
+import cars from "../assets/cars.jpg";
+import card from "../assets/spotify.jpg";
+import easybank from "../assets/easybank.png";
+import simple from "../assets/simple.png";
+import Header from "./Header";
 
 export default function Projects() {
   const projects = [
     {
       title: "Portfolio",
-      description: "Personal portfolio developed with React and TailwindCSS, focused on presenting my projects and skills in a professional way.",
+      description:
+        "Personal portfolio developed with React and TailwindCSS, focused on presenting my projects and skills in a professional way.",
       tags: ["React", "TailwindCSS"],
       image: nicollas,
       github: "https://github.com/GOMEZz157/portfolio-nicollasGomes",
-      live: "https://nicollas-gomes-oliveira.vercel.app"
+      live: "https://nicollas-gomes-oliveira.vercel.app",
     },
     {
       title: "Cars",
-      description: "Developed in React with Tailwind CSS. Features a responsive interface with cards for displaying vehicles.",
+      description:
+        "Developed in React with Tailwind CSS. Features a responsive interface with cards for displaying vehicles.",
       tags: ["React", "TailwindCSS"],
       image: cars,
       github: "https://github.com/GOMEZz157/Projeto-Cars",
-      live: "https://carros-nicollasgomes32b.vercel.app"
+      live: "https://carros-nicollasgomes32b.vercel.app",
     },
     {
       title: "Spotify Clone",
-      description: "A simple Spotify clone built with React and MongoDB. It displays a list of songs stored in the database and includes a functional music player.",
+      description:
+        "A simple Spotify clone built with React and MongoDB. It displays a list of songs stored in the database and includes a functional music player.",
       tags: ["React", "CSS", "MongoDB"],
       image: card,
       github: "https://github.com/GOMEZz157/spotify-jornada-full-stack",
-      live: "https://front-end-spotify-lovat.vercel.app/"
+      live: "https://front-end-spotify-lovat.vercel.app/",
     },
     {
       title: "Easybank",
-      description: "Developed in React with Tailwind CSS. Features a responsive interface for bank landing page.",
+      description:
+        "Developed in React with Tailwind CSS. Features a responsive interface for bank landing page.",
       tags: ["React", "TailwindCSS"],
       image: easybank,
       github: "https://github.com/GOMEZz157/Easybank",
-      live: "https://easybank-gamma-teal.vercel.app/"
+      live: "https://easybank-gamma-teal.vercel.app/",
     },
     {
       title: "Simple Grid Component",
-      description: "Developed in React with Tailwind CSS. Features a responsive card for sell something.",
+      description:
+        "Developed in React with Tailwind CSS. Features a responsive card for sell something.",
       tags: ["HTML", "CSS"],
       image: simple,
       github: "https://github.com/GOMEZz157/simple-grid-component/",
-      live: "https://simple-grid-component-inky.vercel.app/"
+      live: "https://simple-grid-component-inky.vercel.app/",
     },
   ];
 
@@ -55,8 +60,8 @@ export default function Projects() {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.1 }
-    }
+      transition: { staggerChildren: 0.1 },
+    },
   };
 
   const itemVariants = {
@@ -64,23 +69,30 @@ export default function Projects() {
     visible: {
       y: 0,
       opacity: 1,
-      transition: { duration: 0.5 }
-    }
+      transition: { duration: 0.5 },
+    },
   };
 
   return (
     <section className="bg-(--bg-color) h-full pb-30">
-      <Header/>
+      <Header />
       <div className="max-w-6xl mx-auto mt-[8rem] px-4">
-        <motion.h2 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl font-bold text-(--main-text) font-raleway mb-12 text-center"
-        >
-          Projects
-        </motion.h2>
-        
-        <motion.div 
+        <div className="flex justify-between items-center mb-12">
+          <motion.h2
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-4xl font-bold text-(--main-text) font-raleway"
+          >
+            Projects
+          </motion.h2>
+          <a
+            href="#"
+            className="gap-2 items-center px-3 py-1 bg-(--head-bg) text-(--text-color) hover:bg-(--text-color) hover:text-(--head-bg) text-sm rounded-full font-poppins transition hidden md:flex"
+          >
+            See more <ChevronDown />
+          </a>
+        </div>
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"

@@ -43,20 +43,34 @@ export default function About() {
           </motion.h1>
 
           <motion.p
-            className="text-[#6B7280] font-lexend font-normal sm:p-6 sm:px-0 text-xs sm:text-lg max-w-full"
+            className="text-[#6B7280] font-lexend font-normal sm:p-6 sm:px-0 text-sm sm:text-lg max-w-full"
             initial="hidden"
             animate="visible"
             variants={containerVariants}
             custom={1}
           >
-            Passionate about technology and web development, I’m a junior programmer with a solid grounding in{" "}
-            <strong className="font-bold">
-              HTML, CSS, Tailwind, Bootstrap, React and Javascript.
-            </strong>{" "}
-            During my technical computer course, which I completed alongside high school, I learned how to turn ideas
-            into practical, functional projects. I’m currently deepening my knowledge of{" "}
-            <strong className="font-bold">JavaScript, React and TypeScript</strong>, expanding my skills to create
-            dynamic and interactive applications.
+            I’m a Software Developer with 3 years of hands-on experience in
+            programming, gained during my technical high school course in
+            Informatics. I’m currently pursuing a Bachelor’s degree in Software
+            Engineering, expanding my knowledge in system architecture,
+            development best practices, and digital solutions. <br />
+            <br />
+            I have strong skills in a variety of technologies, including: <br />
+            Languages and frameworks: Python, C++, JavaScript, TypeScript,
+            React, Styled-components, Tailwind CSS <br />
+            Web development: HTML, CSS, REST API integration
+            <br />
+            Databases: MySQL
+            <br />
+            Tools: Git for version control and Excel for data management and
+            analysis
+            <br />
+            <br />
+            In addition to my technical background, I’m fluent in English, have
+            a proactive mindset, strong communication skills, quick learning
+            ability, and a results-driven approach. I’m always looking for new
+            challenges and opportunities to apply my skills in impactful,
+            real-world projects.
           </motion.p>
 
           <motion.div
@@ -74,7 +88,10 @@ export default function About() {
               Contact Me <i className="fa-solid fa-chevron-right"></i>
             </a>
             <div className="flex gap-5 transition-all justify-center">
-              <a href="https://www.linkedin.com/in/nicollas-gomes-4479952b9/" target="blank">
+              <a
+                href="https://www.linkedin.com/in/nicollas-gomes-4479952b9/"
+                target="blank"
+              >
                 <i className="fa-brands fa-linkedin sm:text-(--text-color) text-(--color-linkedin) hover:text-(--color-linkedin) text-4xl transition-all duration-300 ease-in-out"></i>
               </a>
               <a
