@@ -7,9 +7,10 @@ export default function Header() {
 
   const menuItems = [
     { title: 'Home', to: '/' },
-    { title: 'About', to: '/about' },
-    { title: 'Skills', to: '/skills' },
-    { title: 'Projects', to: '/projects' },
+    { title: 'About', to: '#about' },
+    { title: 'Skills', to: '#skills' },
+    { title: 'Projects', to: '#projects' },
+    { title: 'Experience', to: '#experience' },
   ];
 
   const socialLinks = [
@@ -36,7 +37,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="flex justify-center">
+    <header className="fixed top-0 left-0 w-full z-50 flex justify-center">
       <nav className="bg-(--head-bg) text-(--text-color) flex flex-col md:flex-row justify-between w-5/6 p-5 rounded-b-lg relative">
         {/* Botão Menu Mobile */}
         <button 
@@ -58,13 +59,13 @@ export default function Header() {
           transition-all duration-300 ease-in-out
         `}>
           {menuItems.map(item => (
-            <Link
+            <a
               key={item.title}
-              to={item.to}
+              href={item.to}
               className="hover:text-(--color-linkedin) font-poppins font-bold transition-all duration-300 ease-in-out text-center md:text-left"
             >
               {item.title}
-            </Link>
+            </a>
           ))}
         </div>
 

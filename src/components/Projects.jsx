@@ -6,7 +6,7 @@ import cars from "../assets/cars.jpg";
 import card from "../assets/spotify.jpg";
 import easybank from "../assets/easybank.png";
 import simple from "../assets/simple.png";
-import Header from "./Header";
+
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
@@ -34,8 +34,7 @@ export default function Projects() {
   window.innerWidth < 768 ? projects : showAll ? projects : projects.slice(0, 3);
 
   return (
-    <section className="bg-(--bg-color) min-h-screen pb-30">
-      <Header />
+    <section className="bg-(--bg-color) min-h-screen pb-30 flex items-center justify-center" id="projects">
       <div className="max-w-6xl mx-auto mt-[8rem] px-4">
         <div className="flex justify-between items-center mb-12">
           <motion.h2 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl font-bold text-(--main-text) font-raleway">
