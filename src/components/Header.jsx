@@ -7,7 +7,6 @@ export default function Header() {
 
   const menuItems = [
     { title: 'Home', to: '/' },
-    { title: 'About', to: '#about' },
     { title: 'Skills', to: '#skills' },
     { title: 'Projects', to: '#projects' },
     { title: 'Experience', to: '#experience' },
