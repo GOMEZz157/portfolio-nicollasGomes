@@ -8,6 +8,7 @@ import easybank from "../assets/easybank.png";
 import simple from "../assets/simple.png";
 import pontocerto from "../assets/pontocerto.png";
 import acessocam from "../assets/acessocam.png";
+import acsnet from "..assets/acsnet.png"
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
@@ -23,12 +24,19 @@ export default function Projects() {
       live: "https://nicollas-gomes-oliveira.vercel.app",
     },
     {
+      title: "ACSNET",
+      description:
+        "Developed in React with Tailwind CSS. Landing Page for ACSNET",
+      tags: ["React", "TailwindCSS"],
+      image: acsnet,
+      live: "https://www.acsnet.com.br/",
+    },
+    {
       title: "Ponto Certo Telecom",
       description:
         "Developed in React with Tailwind CSS. Landing Page for Ponto Certo Telecom",
       tags: ["React", "TailwindCSS"],
       image: pontocerto,
-      github: "https://github.com/GOMEZz157/ponto-certo-telecom",
       live: "https://pontocertointernet.com.br/",
     },
     {
@@ -37,7 +45,6 @@ export default function Projects() {
         "Developed in React with Tailwind CSS. Features a institutional website for a Saas monitoring platform",
       tags: ["React", "TailwindCSS"],
       image: acessocam,
-      github: "https://github.com/GOMEZz157/acessoCam",
       live: "https://acesso.cam/",
     },
     {
