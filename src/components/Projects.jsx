@@ -8,7 +8,7 @@ import easybank from "../assets/easybank.png";
 import simple from "../assets/simple.png";
 import pontocerto from "../assets/pontocerto.png";
 import acessocam from "../assets/acessocam.png";
-import acsnet from "..assets/acsnet.png"
+import acsnet from "../assets/acsnet.png"
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
