@@ -155,7 +155,7 @@ export default function About() {
           >
             <i className="fa-brands fa-whatsapp"></i>
           </a>
-          <a href="https://drive.google.com/file/d/1Rdl_twKkG34vtmoSn20x04NTSUC4L18m/view?usp=sharing" target="_blank" className="bg-white rounded-xl py-2 px-4">Download CV</a>
+          <a href="https://drive.google.com/file/d/1PxsOnv7ReZYev2zBD3JuYp-qVUWlYrn_/view?usp=sharing" target="_blank" className="bg-white rounded-xl py-2 px-4">Download CV</a>
         </motion.div>
       </div>
     </section>
