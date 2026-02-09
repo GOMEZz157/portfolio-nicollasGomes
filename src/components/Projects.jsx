@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Github, ExternalLink, ChevronDown } from "lucide-react";
-import nicollas from "../assets/nicollas.jpg";
+import uc from "../assets/uc.png";
 import cars from "../assets/cars.jpg";
 import card from "../assets/spotify.jpg";
 import easybank from "../assets/easybank.png";
@@ -15,13 +15,12 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Portfolio",
+      title: "UC Telecom",
       description:
-        "Personal portfolio developed with React and TailwindCSS, focused on presenting my projects and skills in a professional way.",
+        "Developed in React with Tailwind CSS. High conversion Landing Page for UC TELECOM",
       tags: ["React", "TailwindCSS"],
-      image: nicollas,
-      github: "https://github.com/GOMEZz157/portfolio-nicollasGomes",
-      live: "https://nicollas-gomes-oliveira.vercel.app",
+      image: uc,
+      live: "https://uctele.com/",
     },
     {
       title: "ACSNET",
